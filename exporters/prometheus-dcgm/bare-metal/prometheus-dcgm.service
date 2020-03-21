@@ -6,7 +6,7 @@ After=dcgm.service
 [Service]
 Type=simple
 Restart=always
-ExecStart=/usr/local/bin/dcgm-exporter
+ExecStart=/usr/local/bin/dcgm-exporter -p
 
 [Install]
 WantedBy=multi-user.target

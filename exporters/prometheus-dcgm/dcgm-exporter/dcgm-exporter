@@ -4,7 +4,7 @@ set -u
 
 HOST_ENGINE=no
 COLLECT_INTERVAL_MS=1000
-OUTPUT_FILE=/run/prometheus/dcgm.prom
+OUTPUT_FILE=/var/lib/prometheus/node-exporter/dcgm.prom
 DCP_METRICS=no
 DCP_FIELDS=""
 
